@@ -1,0 +1,148 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del encabezado */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 20px;
+  }
+  
+  header ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  header ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  header ul li a {
+    color: #fff;
+  }
+  #about {
+    background-image: url('img/minero1.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  #about .container {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  #about h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  /* Estilos de las secciones */
+  #projects {
+    background-image: url('img/proyecto.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  #projects .container {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  #contact {
+    background-image: url('img/contacto.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 80px 0;
+  }
+  
+  #contact .container {
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  section p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  section ul {
+    margin-top: 20px;
+  }
+  
+  section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project h3 {
+    margin-bottom: 10px;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-member img {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .team-member h3 {
+    margin-bottom: 10px;
+  }
+  
+  .team-member p {
+    font-size: 16px;
+    color: #888;
+  }
+  
+  /* Estilos del pie de página */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
